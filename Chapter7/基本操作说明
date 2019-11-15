@@ -1,0 +1,5 @@
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json
+
+//
+-p后是端口号，（port）
+-c 是（config），指的是配置文件。其后可以跟着路径，指定路径下的配置文件
